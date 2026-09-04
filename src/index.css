@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-arcade {
+    font-family: 'Press Start 2P', monospace;
+  }
+  .pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+  .crt-scanlines {
+    background: linear-gradient(
+      rgba(18, 16, 16, 0) 50%, 
+      rgba(0, 0, 0, 0.35) 50%
+    );
+    background-size: 100% 4px;
+  }
+  .geo-grid {
+    background-image: linear-gradient(#333 1px, transparent 1px), linear-gradient(90deg, #333 1px, transparent 1px);
+    background-size: 32px 32px;
+  }
+  .geo-grid-dense {
+    background-image: linear-gradient(#262626 1px, transparent 1px), linear-gradient(90deg, #262626 1px, transparent 1px);
+    background-size: 16px 16px;
+  }
+  .geo-shadow {
+    box-shadow: 4px 4px 0px #000;
+  }
+  .geo-shadow-lg {
+    box-shadow: 8px 8px 0px #000;
+  }
+  .geo-shadow-cyan {
+    box-shadow: 4px 4px 0px #00f2ff;
+  }
+  .geo-shadow-red {
+    box-shadow: 4px 4px 0px #ff2d55;
+  }
+}

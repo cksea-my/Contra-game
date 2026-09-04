@@ -1,0 +1,6 @@
+{
+  "name": "Retro Arcade Contra Platformer",
+  "description": "A retro 8-bit/16-bit arcade run-and-gun platformer inspired by Contra, featuring authentic pixel graphics, 8-directional aiming, jumping, powerups, boss battles, and real-time online multiplayer co-op.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
